@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JGOop+VkowSRp7NOki6SgzXKtlA6rFAyM92RqWCCjLHbp2/1Z+pItsgWXIkcVvtpx3KwZm96Nf5Oyc2bxW7HXw==",
+  "success": true,
+  "projectFilePath": "/Users/janbierowiec/CISC_5520/Programming_Languages_Project_2/Emulator/Emulator.fsproj",
+  "expectedPackageFiles": [
+    "/Users/janbierowiec/.nuget/packages/fsharp.core/8.0.101/fsharp.core.8.0.101.nupkg.sha512"
+  ],
+  "logs": []
+}
