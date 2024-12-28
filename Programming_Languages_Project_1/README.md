@@ -63,7 +63,7 @@
 
 ![Class Diagram](/Programming_Languages_Project_1/diagrams/UML_class.jpeg)
 
-## Acticity Diagram:
+## Activity Diagram:
 
 ![Activity Diagram](/Programming_Languages_Project_1/diagrams/activity.jpeg)
 
