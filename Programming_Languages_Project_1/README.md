@@ -61,7 +61,7 @@
 
 ## Class Diagram:
 
-![Class Diagram](/Programming_Languages_Project_1/diagrams/class.jpeg)
+![Class Diagram](/Programming_Languages_Project_1/diagrams/UML_class.jpeg)
 
 ## Acticity Diagram:
 
