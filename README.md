@@ -16,27 +16,27 @@ This repository contains all four projects that I have worked on in relation to 
 
 ```plaintext
 ├── Programming_Languages_Project_1
-    ├── diagrams
-        ├── activity.jpeg
-        └── class.jpeg
-    ├── JSONPrettyPrint.txt
-    ├── oop.py
-    ├── procedural
-    └── procedural.cpp
+│   ├── diagrams
+│   │   ├── activity.jpeg
+│   │   └── class.jpeg
+│   ├── JSONPrettyPrint.txt
+│   ├── oop.py
+│   ├── procedural
+│   └── procedural.cpp
 ├── Programming_Languages_Project_2
-    └── Emulator
-        ├── bin
-        ├── obj
-        ├── Emulator.fsproj
-        └── Program.fs
+│   └── Emulator
+│       ├── bin
+│       ├── obj
+│       ├── Emulator.fsproj
+│       └── Program.fs
 ├── Programming_Languages_Project_3
-    └── airline_travel.pl
+│   └── airline_travel.pl
 └── Programming_Languages_Project_4
     ├── sample_programs
-        ├── arithmetic.jan
-        ├── fibonacci.jan
-        ├── hello.jan
-        └── square.jan
+    │   ├── arithmetic.jan
+    │   ├── fibonacci.jan
+    │   ├── hello.jan
+    │   └── square.jan
     ├── jan_grammar.bnf
     ├── Jan_Programming_Language_Presentation.pdf
     └── Programming_Languages_Projet_4_Report.pdf
