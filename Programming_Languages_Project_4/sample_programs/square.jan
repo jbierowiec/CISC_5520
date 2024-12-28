@@ -1,0 +1,14 @@
+f sq(x):
+    return x * x.
+
+let i.
+let x.
+
+output("Enter a number").
+input(x).
+
+output("All of the squares up until", x, "are: ").
+for(i = 1. i <= x. i = i + 1.):
+    let result = sq(x).
+
+    output(result, ", ").

@@ -1,0 +1,53 @@
+<program> ::= start <statement_list> end
+
+<statement_list> ::= <statement> | <statement> ; <statement_list>
+
+<statement> ::= <declaration> 
+              | <definition> 
+              | <expression> 
+              | <control_statement> 
+              | <function_call> 
+              | <function_declaration>
+              | <return_statement> 
+              | <output_statement>
+              | <input_statement>
+
+<function_declaration> ::= f <identifier> ( <parameter_list> ): <statement_list>
+<parameter_list> ::= ( ) | ( <identifier> ) | ( <identifier> , <identifier> )
+
+<return_statement> ::= return <expression> .
+<output_statement> ::= output ( <expression_list> ) .
+<input_statement> ::= input ( <expression_list> ) .
+
+<expression_list> ::= <expression> | <expression> , <expression_list>
+<expression> ::= <literal> 
+               | <identifier> 
+               | <function_call> 
+               | ( <expression> ) 
+               | <expression> <operator> <expression>
+
+<declaration> ::= let <identifier> .
+<definition> ::= let <identifier> = <expression> .
+
+<control_statement> ::= <if_statement> 
+                      | <for_loop> 
+                      | <do_while_loop>
+
+<if_statement> ::= if ( <expression> ) { <statement_list> }
+<for_loop> ::= for ( <declaration> . <condition> . <expression> ) { <statement_list> }
+<do_while_loop> ::= do { <statement_list> } while ( <expression> ) .
+
+<condition> ::= <identifier> <operator> <expression>
+
+<function_call> ::= <identifier> ( <optional_args> )
+<optional_args> ::= <expression> | <expression> , <optional_args>
+
+<literal> ::= <numeric_literal> | <string_literal> | <array_literal>
+<string_literal> ::= ' <characters> '
+<numeric_literal> ::= <digit> | <digit> <numeric_literal>
+<array_literal> ::= [ <numeric_literal> , <numeric_literal> ]
+
+<identifier> ::= <letter> | <identifier> <letter> | <identifier> <digit> | <identifier> _
+<letter> ::= a | b | ... | z | A | ... | Z
+<digit> ::= 0 | 1 | ... | 9
+<operator> ::= + | - | * | / | ^ | <= | >= | < | > | =

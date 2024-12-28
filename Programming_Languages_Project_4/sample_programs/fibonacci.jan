@@ -1,0 +1,17 @@
+let i.
+let t, t1 = 0, t2 = 1, nt = 0.
+
+output("Enter a number of terms").
+input(t).
+
+for(i = 1. i <= t. i = i + 1.):
+    if(i is 1):
+        output(t1, ", ").
+        proceed.
+    if(i is 2):
+        output(t2, ", ").
+        proceed.
+    nt = t1 + t2.
+    t1 = t2.
+    t2 = nt.
+    output(nt, ", ").

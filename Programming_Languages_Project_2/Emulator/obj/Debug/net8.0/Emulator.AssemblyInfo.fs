@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("Emulator")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e87c18f3aa863667999309b40a04319e2ce9772c")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3eafbd8e49bb2a8652fc8b6079cda3e9847cbbf")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("Emulator")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("Emulator")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

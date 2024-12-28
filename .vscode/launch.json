@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/janbierowiec/CISC_5520/Programming_Languages_Project_4/tests/compiler_old",
+      "program": "/Users/janbierowiec/CISC_5520/Programming_Languages_Project_4/tests/compiler_old/build/Debug/outDebug"
+    }
+  ]
+}

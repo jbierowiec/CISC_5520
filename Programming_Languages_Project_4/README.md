@@ -26,15 +26,25 @@
     - Definition
 
 ## Presentation
+[Jan Programming Language Presenation](/Programming_Languages_Project_4/Jan_Programming_Language_Presentation.pdf)
 
 ## Report
+[Programming Languages Project 4 Report](/Programming_Languages_Project_4/Programming_Languages_Project_4_Report.pdf)
 
 ## Project Structure
 
 ```plaintext
-
+├── sample_programs
+    ├── arithmetic.jan
+    ├── fibonacci.jan
+    ├── hello.jan
+    └── square.jan
+├── jan_grammar.bnf
+├── Jan_Programming_Language_Presentation.pdf
+└── Programming_Languages_Project_4_Report.pdf
 ```
 
+<!--
 ## Setup Instructions:
 
 1. Make sure that you are in the `Programming_Languages_Project_4` directory.
@@ -56,3 +66,4 @@
     ```bash
     python oop.py
     ```
+-->
