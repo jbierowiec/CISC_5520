@@ -1,6 +1,6 @@
 # CISC 5520 Programming Languages Projects
 
-This repository contains all four projects that I have worked on in relation to the Programming Languages course. implements a round-robin scheduler in C. It demonstrates creating and managing child processes using the RR algorithm, where the user inputs a fixed quantum of time for processes to run before being paused and resuming another process.
+This repository contains all four projects that I have worked on in relation to Programming Languages.
 
 ## Projects
 - Project 1
