@@ -35,10 +35,10 @@
 
 ```plaintext
 ├── sample_programs
-    ├── arithmetic.jan
-    ├── fibonacci.jan
-    ├── hello.jan
-    └── square.jan
+│   ├── arithmetic.jan
+│   ├── fibonacci.jan
+│   ├── hello.jan
+│   └── square.jan
 ├── jan_grammar.bnf
 ├── Jan_Programming_Language_Presentation.pdf
 └── Programming_Languages_Project_4_Report.pdf
